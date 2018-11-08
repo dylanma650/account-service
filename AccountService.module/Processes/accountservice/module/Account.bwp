@@ -233,7 +233,7 @@
             <wsdl:portType name="account"
                 tibex:bw.rest.apipath="/account/{id}"
                 tibex:bw.rest.basepath="Account"
-                tibex:bw.rest.resource="Service Descriptors/accountservice.module.Process-Account.json"
+                tibex:bw.rest.resource="Service Descriptors/accountservice.module.Account-Account.json"
                 tibex:bw.rest.resource.source="generated" tibex:source="bw.rest.service">
                 <wsdl:documentation>Account Service</wsdl:documentation>
                 <wsdl:operation name="get">
