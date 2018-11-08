@@ -11,13 +11,13 @@
   <artifactId>AccountService</artifactId>
   <packaging>bwear</packaging>
   <properties>
-    <skipTests>false</skipTests>
     <pcf.property.file>pcfdev.properties</pcf.property.file>
-    <bw.Home>/bwce/2.4</bw.Home>
+    <skipTests>false</skipTests>
     <project.type>Docker</project.type>
+    <bw.Home>/bwce/2.4</bw.Home>
     <k8s.property.file>k8s-dev.properties</k8s.property.file>
-    <failIfNoTests>false</failIfNoTests>
     <docker.property.file>docker-dev.properties</docker.property.file>
+    <failIfNoTests>false</failIfNoTests>
     <tibco.Home>/home/tibco/bwce</tibco.Home>
   </properties>
   <build>
